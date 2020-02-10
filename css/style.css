@@ -1,0 +1,83 @@
+
+
+
+
+.fomr {
+    margin-top   : 100px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.items_style {
+    display: flex;
+
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+.form-row__items {
+    display: flex;
+    padding: 5px;
+}
+
+
+.h8 {
+    font-size  : 14px;
+    margin-left: 10px;
+}
+
+.btn-style {
+    border-radius: 0px !important;
+    margin-top   : 15px;
+}
+
+
+.presentation {
+    background         : url(/img/2.jpg);
+    height             : 900px;
+    background-position: 63%;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    position           : relative;
+    z-index            : -1;
+
+}
+
+.img-wrapper {
+    background: rgba(0, 0, 255, 0.562);
+}
+
+.inputPhoneNumber-optional{
+    font-size: 12px;
+}
+
+
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error, textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+[type="submit"], [type="reset"] {
+    margin-left: 0;
+    border-radius: 0;
+    background: black;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: 10px 0;
+    line-height: 1;
+}
